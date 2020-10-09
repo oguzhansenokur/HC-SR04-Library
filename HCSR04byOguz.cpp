@@ -6,7 +6,7 @@ void Sensor::trigger(int t)
 }
 void Sensor::echo(int e)
 {
-    pinMode(e,OUTPUT);
+    pinMode(e,INPUT);
 }
 double Sensor::uzaklikolc(double uzecho,double uztrigger)
 {
